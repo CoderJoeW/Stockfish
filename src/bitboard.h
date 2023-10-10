@@ -33,6 +33,9 @@ namespace Stockfish {
 namespace Bitboards {
 
 void init();
+void initPopCnt16();
+void initSquareDistance();
+
 std::string pretty(Bitboard b);
 
 } // namespace Stockfish::Bitboards
